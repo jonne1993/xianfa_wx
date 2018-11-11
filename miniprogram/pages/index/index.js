@@ -57,13 +57,9 @@ Page({
         wx.navigateTo({
           url: '../userConsole/userConsole',
         })
-<<<<<<< HEAD
 
         console.log('app.globalData.tonkenid--徐伟个222货,我曹我曹我曹')
-
-=======
-        console.log('app.globalData.tonkenid--徐伟个222货,我曹我曹我曹')
->>>>>>> xianfa_xcx
+        
         wx.request({
           url: app.globalData.ApiUrl + 'w/testapi', //仅为示例，并非真实的接口地址
           data: {
