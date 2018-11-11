@@ -57,7 +57,7 @@ Page({
         wx.navigateTo({
           url: '../userConsole/userConsole',
         })
-        console.log('0000000000000000000000000')
+        console.log('00000000000000000000022222222220000')
         wx.request({
           url: app.globalData.ApiUrl + 'w/testapi', //仅为示例，并非真实的接口地址
           data: {
