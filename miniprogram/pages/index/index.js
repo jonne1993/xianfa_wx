@@ -57,7 +57,7 @@ Page({
         wx.navigateTo({
           url: '../userConsole/userConsole',
         })
-        console.log('app.globalData.tonkenid--徐伟个222货')
+        console.log('app.globalData.tonkenid--徐伟个222--3333333333货')
         wx.request({
           url: app.globalData.ApiUrl + 'w/testapi', //仅为示例，并非真实的接口地址
           data: {
