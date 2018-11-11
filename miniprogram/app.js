@@ -1,5 +1,5 @@
 //app.js
-var  uuid  =  require('../libs/node-uuid/uuid.modified.js'); 
+//var  uuid  =  require('../libs/node-uuid/uuid.modified.js'); 
 App({
   onLaunch: function () {
     
@@ -15,8 +15,7 @@ App({
 
     this.globalData = {
         ApiUrl : 'https://api.tenclouds.cn/xianfa/',
-        openid : '',
-        tokenid : this.uuid.v4()
+        openid : ''
     }
   }
 })
